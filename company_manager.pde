@@ -14,7 +14,7 @@ class company_manager {
     companies.add(new company("UltraGraffix", "ULT", 5, 400, 200));
     companies.add(new company("IHeartGambling", "IGAM", 250, 1000, 1));
     companies.add(new company("BigBombs Milcorp", "BBM", 10, 400, 250));
-    companies.add(new company("Simply Oil", "OIL", 5, 150, 100));
+    companies.add(new company("Simply Oil", "OIL", 5, 250, 100));
     companies.add(new company("OmniSoft Inc.", "OWN", 10, 400, 50));
     companies.add(new company("Stratton Oakmont Inc.", "OAK", 10, 400, 50));
     companies.add(new company("Democratic People's Republic\nof North Korea Semiconductor\nManufacturing Company Ltd.", "DRPK", 10, 400, 50));
@@ -66,7 +66,6 @@ class company_manager {
   
   void update_companies() {
     
-    //
     if(!timer_started) {
       
       timer_started = true;

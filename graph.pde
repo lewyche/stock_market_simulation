@@ -36,7 +36,6 @@ class graph {
 
         }
       }
-
       
       line(prev_point.x, prev_point.y, new_x, new_y);
       
@@ -62,6 +61,7 @@ class graph {
       ratio = 0.5;
     }
     
+    println("Price:" + str(price));
     
     return (max * ratio);
   }

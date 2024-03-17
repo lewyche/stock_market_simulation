@@ -1,4 +1,4 @@
-int market_delay_quarter_seconds = 2;  //in quarter seconds
+int market_delay_quarter_seconds = 4;  //decreasing this number may cause the market to become inaccurate
 
 company_manager companies;
 graph g;
